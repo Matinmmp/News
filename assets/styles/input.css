@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.box{
+    @apply card card-compact  bg-neutral-content shadow-xl text-neutral h-[35rem] mb-4;
+}
